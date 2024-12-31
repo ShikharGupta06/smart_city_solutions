@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    line-height: 1.6;
+    position: relative;
+}
+
+/* from here login and signup page styles is started */
+.auth-container {
+    background: url('loginsignupbackground.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Auth box styles */
+.auth-box {
+    background: none;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 200px rgba(248, 247, 247, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Title styling for both login and signup*/
+.auth-box h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0078d7;
+}
+
+/* Form group for both login and signup - where user fill the credentials*/
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* label for the form group*/
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 3   px solid #0e0d0d;
+    border-radius: 25px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #0078d7;
+    box-shadow: 0 0 8px rgba(0, 120, 215, 0.5);
+}
+
+/* Buttons for login and signup */
+.btn-primary {
+    background: linear-gradient(to right, #0078d7, #0056a4);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #0056a4, #003a73);
+}
+
+/* Icons in labels */
+label i {
+    margin-right: 8px;
+    color: #0078d7;
+}
+
+/* Footer text */
+.auth-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.auth-text a {
+    color: #0078d7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-text a:hover {
+    text-decoration: underline;
+}
+
+/*here is the end of the code for login and signup pages*/
+
+/* Optional overlay for readability */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(252, 251, 251, 0.8); /* Light overlay */
+    z-index: -1;
+}
+
+header {
+    background-image:url('loginsignupbackground.jpg');
+    background-size: cover; 
+    background-position: center;
+    bottom: 1px;
+    color: #fcfbfb;
+    padding: 10px 20px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+#search-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 350px;
+}
+
+#search-btn {
+    background-color: #0056a4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#search-btn:hover {
+    background-color: #003a73;
+}
+
+header h1 {
+    margin: 10;
+}
+/* Navigation Container Styles */
+.navigation-container {
+    background-color: #f4f4f4; 
+    padding: 10px 20px; /* Add spacing around the nav */
+    border-bottom: 2px solid #ddd; /* Add a border to separate it visually */
+}
+
+/* Maintain Nav Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: px;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: block;
+    background-color: #0a0909;
+    padding: 11px 100px;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 12px;
+}
+
+nav ul li a:hover {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: lightslategray;
+}
+
+main {
+    padding: 30px;
+    background:url('loginsignupbackground.jpg');
+    background-size: cover;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background:white;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+.section-sustainability {
+    background: url('sustainablitybackground.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 1.2rem;
+
+}
+.section-transportation {
+    background: url('transportbackground.jpg.png') no-repeat center center;
+    background-size: cover;
+    font-size: 1.5rem;
+}    
+.section-technology {
+    background: url('technologybackground.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+.section-map {
+    background: url('mapbackground.jpg') no-repeat center center;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #0078d7;
+}
+
+section p {
+    margin: 0 0 10px;
+}
+.section-map p {
+    margin: 0 0 50px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border: 2px solid #0078d7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image:url('loginsignupbackground.jpg');
+    color: #fff;
+    margin-top: 1px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
